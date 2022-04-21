@@ -36,7 +36,7 @@ export default () => {
   }
 
   class Person implements Person {
-    constructor(public name: string, public age: number) {}
+    constructor(public name: string, public age: number) { }
   }
 
   const jane = new Person('Jane', 31);
